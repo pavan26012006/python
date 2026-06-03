@@ -1,0 +1,10 @@
+# second largest number without sorting#
+n = list(map(int,input().split()))
+F = S = -1
+for i in n:
+  if(i>F):
+    S = F
+    F = i
+    elif(i>S):
+      S = i
+    print(S)

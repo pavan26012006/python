@@ -1,0 +1,5 @@
+# Scenario: Identify the first unique character in a string#
+s = class
+  for i in s:
+    if count(ch)==1:
+      print("frist character",ch) 

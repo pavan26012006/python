@@ -1,0 +1,11 @@
+#odd-even rearrange#
+number = list(map(int,input().list()))
+odd =[]
+even =[]
+for num in number
+  if num %2! = 0:
+   odd.append(num)
+  else:
+    even append(num)
+rearrange_number = even + odd print(S)
+ print(rearrange_number)

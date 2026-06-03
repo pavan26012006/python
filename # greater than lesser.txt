@@ -1,0 +1,7 @@
+# greater than lesser
+a=int(input())
+b = int(input())
+if(a<b):
+  print("A is lesser than b")
+else:
+  print("B is grater than a")

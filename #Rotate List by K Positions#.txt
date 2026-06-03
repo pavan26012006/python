@@ -1,0 +1,6 @@
+#Rotate List by K Positions#
+a = list(input())
+k =2
+result = a[-k:]+a[:-k]
+print (result)
+#i/p 1234#

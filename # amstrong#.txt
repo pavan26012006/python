@@ -1,0 +1,16 @@
+# amstrong#
+a = int(input())
+
+length = len(str(a))
+s = 0
+t = a
+
+while t > 0:
+    d = t % 10
+    s = s + (d ** length)
+    t = t // 10
+
+if s == a:
+    print("Armstrong")
+else:
+    print("Not an Armstrong")
